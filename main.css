@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+/*estilizando o cabeçario*/
+header{
+    background-color: rgb(182, 212, 238);
+    padding: 16px 0;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+    display: flex;
+}
+
+/*estilizando o formulario*/
+form{
+    background-color: rgb(243, 243, 232);
+    text-align: center;
+}
+
+form h2{
+    margin-bottom: 16px;
+}
+
+/*estilizando o roda pé*/
+footer{
+    background-color: rgb(182, 212, 238);
+    padding: 16px 0;
+    color: #1d2223;
+    text-align: center;
+}
+
+/*estolizando o botão*/
+button{
+    background-color: rgb(9, 234, 20);
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform:uppercase;
+    color: #fff;
+}
+
+input, button{
+    padding: 8px;
+}
+
+ul{
+    text-align: center;
+    padding: 16px 0;
+    display: block;
+}
+
+
